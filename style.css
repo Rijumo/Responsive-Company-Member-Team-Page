@@ -1,0 +1,159 @@
+
+body{
+    background-color:azure;
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+    color: white;
+}
+.div_ele{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+   
+   
+}
+h1{
+    text-align: center;
+}
+.div_item{
+    width: 400px;
+    height: 500px;
+   /* border: 2px solid black;*/
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-left: 15px;
+    box-shadow: 3px 3px 3px black;
+    background-color: white;
+    transition: border 2s ease-in 0.1s;
+}
+img{
+    width: 150px;
+    height: 150px;
+    padding-left:120px;
+    padding-top: 40px;
+    border-radius: 50%;
+}
+
+h3{
+    text-align: center;
+    color: purple;
+    font-weight: bolder;
+}
+button{
+margin-left: 120px;
+width: 150px;
+height: 50px;
+border-radius: 15px;
+background-color: aquamarine;
+color: white;
+box-shadow: 3px 3px 3px black;
+transition: background-color 1s ease-in 0.1s;
+
+}
+.div_item:hover{
+    border: 3px solid purple;
+   
+}
+button:hover{
+    background-color: purple;
+    color: white;
+   
+   
+}
+.div_icon{
+   margin-left: 80px;
+   margin-top: 50px;
+  
+
+}
+.div_icon i{
+   margin: 15px;
+   font-size: 30px;
+   color: black;
+   transition: transform 1s ease-in-out 0.1s;
+
+}
+.div_icon i:hover{
+    color: purple;
+    transform: scale(2);
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    margin-top: 50px;
+   
+}
+footer h2{
+    text-align: center;
+   padding: 10px;
+  
+}
+.div_join{
+   display: flex;
+   flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.div_join h1{
+    margin: 50px;
+    color: purple;
+   
+}
+.div_join button{
+    margin-right: 120px;
+    font-size: larger;
+    font-weight: bolder;
+}
+/*@media(min-width: 370px){
+    .div_join button{
+        margin-left: 120px;
+    }
+
+    .div_item{
+        margin-right: 18px;
+       
+    }
+   img{
+        padding-left: 90px;
+   }
+   button{
+margin-left: 80px;
+   }
+   .div_icon{
+    margin-left: 40px;
+    
+   }
+}*/
+
+@media(max-width: 700px){
+    .div_join button{
+        margin-left: 120px;
+    }
+
+    .div_item{
+        margin-right: 18px;
+       
+    }
+   img{
+        padding-left: 120px;
+   }
+   button{
+margin-left: 120px;
+   }
+   .div_icon{
+    margin-left: 80px;
+    
+   }
+}
